@@ -8,7 +8,7 @@
 
 {-# LANGUAGE TypeFamilies #-}
 
-module RBT where
+module RBT (Tree(..), RBT(..), insert) where
 
 data Color :: * where
   R :: Color  -- Red color
